@@ -127,7 +127,7 @@ Ce script automatise l'ensemble du processus d'installation et d'optimisation.
 Toutes les applications ci-dessous ont été vérifiées et sont 100% fiables :
 
 | Application | Revenu Mensuel | Paiement Minimum | Méthodes de Paiement | Site Officiel |
-|-------------|----------------|------------------|-----------------------|---------------|
+|-------------|----------------|------------------|----------------------|---------------|
 | Honeygain | 15-30€ | 20$ | PayPal, Bitcoin, JumpTokens | Honeygain.com |
 | IPRoyal Pawns | 10-30€ | 5$ | PayPal, Bitcoin, Payeer | iproyal.com/pawns |
 | Peer2Profit | 8-25€ | 5$ | PayPal, Crypto, Payeer | Peer2Profit.com |
@@ -338,13 +338,27 @@ R: Oui, les mini PCs reconditionnés de grade A/B d'entreprises comme HP, Dell o
 
 ## 🛠️ Scripts Inclus
 
-Ce dépôt contient de nombreux scripts automatisés pour simplifier chaque aspect de la gestion :
+Ce dépôt contient trois scripts PowerShell principaux pour automatiser chaque aspect de la gestion de votre infrastructure de mini PCs :
 
-- **all-in-one-setup.ps1** : Configuration complète d'un mini PC
-- **revenue-optimizer.ps1** : Optimisation fine des applications
-- **maintenance-master.ps1** : Maintenance préventive automatisée
-- **scaling-helper.ps1** : Outils pour faciliter l'expansion
-- **monitor-dashboard.ps1** : Création tableau de bord surveillance
+- **[all-in-one-setup.ps1](scripts/all-in-one-setup.ps1)** : Configuration complète d'un mini PC
+  - Installation automatisée des 5 applications de monétisation
+  - Optimisations système complètes (Windows, réseau, performance)
+  - Création des scripts de maintenance et monitoring
+  - Configuration du démarrage automatique après reboot
+
+- **[maintenance-master.ps1](scripts/maintenance-master.ps1)** : Maintenance préventive automatisée
+  - Vérification et redémarrage des applications inactives
+  - Nettoyage système complet
+  - Génération de rapports de santé détaillés en HTML
+  - Optimisation de la mémoire et du stockage
+
+- **[revenue-optimizer.ps1](scripts/revenue-optimizer.ps1)** : Optimisation fine pour maximiser les revenus
+  - Configuration avancée de chaque application de monétisation
+  - Optimisations réseau spécifiques pour améliorer les performances
+  - Ajustement des priorités d'applications
+  - Création de tâches planifiées pour optimisation continue
+
+Pour utiliser ces scripts, clonez simplement ce dépôt sur votre mini PC Windows et exécutez-les en tant qu'administrateur dans PowerShell.
 
 ## 💹 Revenus Vérifiés
 
