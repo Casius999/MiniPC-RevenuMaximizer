@@ -247,10 +247,13 @@ Pour un scaling efficace :
 
 #### Optimisations spécifiques :
 
+- **Solution Starlink pour maximiser les revenus** :
+  - IPs américaines/européennes au lieu d'IPs thaïlandaises (+40-60% de revenus)
+  - Valorisation identique à celle d'un déploiement en France
+  - Élimine le principal désavantage des IPs asiatiques
 - Contrôle climatique : Maintenir 23-25°C, humidité <60%
 - Nettoyage régulier : Toutes les 2 semaines (poussière abondante)
 - Protection électrique : UPS obligatoire (fluctuations fréquentes)
-- Configuration Starlink : Installation fixe sur toit/terrasse avec protection pluie
 - Backup internet : Fibre locale en secours (True/AIS/3BB)
 
 #### Considérations particulières :
@@ -267,8 +270,8 @@ Pour un scaling efficace :
   - Internet ultra-fiable (moins de coupures)
   - Routage international optimal
   - Excellentes performances vers services européens
-- **Valorisation des IPs européennes** :
-  - Revenus supérieurs de 20-40% par adresse IP
+- **Valorisation naturelle des IPs européennes** :
+  - Revenus supérieurs avec IPs françaises natives
   - Moins de restrictions des plateformes
   - Accès à plus d'options de monétisation
 - **Cadre juridique clair** :
@@ -286,10 +289,10 @@ Pour un scaling efficace :
 #### Considérations particulières :
 
 - Coûts d'exploitation supérieurs (électricité, espace)
-- Rendement par IP supérieur compensant les coûts additionnels
+- Tarifs internet plus élevés pour débit équivalent
 - Climatisation nécessaire seulement en été
 
-### Tableau Comparatif Complet
+### Tableau Comparatif Corrigé (avec impact Starlink)
 
 | Critère | Bangkok | Bordeaux |
 |---------|---------|----------|
@@ -298,17 +301,18 @@ Pour un scaling efficace :
 | Internet | ~100€ (Starlink) | ~40€ (Fibre) |
 | Espace | ~200€ | ~500€ |
 | **Revenus mensuels** | | |
-| Par mini PC | 60-75€ | 70-90€ |
-| Infrastructure 100 PCs | 6000-7500€ | 7000-9000€ |
+| Par mini PC (avec Starlink à Bangkok) | 70-90€ | 70-90€ |
+| Par mini PC (avec Internet local) | 40-60€ | 70-90€ |
+| Infrastructure 100 PCs | 7000-9000€ (Starlink) | 7000-9000€ |
 | **Aspects techniques** | | |
 | Fiabilité réseau | Bonne (avec Starlink) | Excellente |
 | Maintenance requise | Plus fréquente | Standard |
 | Contraintes climatiques | Fortes (chaleur/humidité) | Modérées |
 | **ROI** | | |
-| Retour investissement | 1.2-1.8 mois | 1.4-2.0 mois |
+| Retour investissement (avec Starlink) | 1.0-1.5 mois | 1.4-2.0 mois |
 | Rentabilité long terme | Excellente | Très bonne |
 
-**Recommandation hybride** : Pour une présence alternée entre Bangkok et Bordeaux, une configuration "double infrastructure" de taille réduite (30-50 mini PCs dans chaque localisation) offre le meilleur équilibre entre risques, revenus et gestion à distance.
+**Point clé à retenir** : L'utilisation de Starlink en Thaïlande transforme radicalement l'équation financière car elle fournit des IPs américaines/européennes valorisées au même niveau que les IPs françaises natives. Cette approche élimine le principal désavantage des IPs asiatiques (sous-valorisées de 30-50%) tout en conservant les avantages des coûts d'exploitation réduits en Thaïlande.
 
 ## ❓ FAQ
 
@@ -328,7 +332,7 @@ R: Non, ce système a été conçu pour être accessible à tous. Les scripts au
 R: Le système est conçu pour fonctionner de manière autonome avec monitoring à distance. Voir la section "Gestion à Distance" dans la documentation.
 
 **Q: Quelle localisation offre le meilleur retour sur investissement ?**  
-R: Pour 100 mini PCs, Bordeaux génère environ 1000-1500€ de plus par mois, mais avec des coûts supérieurs de 300-400€. Le bénéfice net reste légèrement supérieur à Bordeaux, mais Bangkok offre plus de flexibilité d'expansion.
+R: Pour 100 mini PCs, Bangkok avec Starlink génère des revenus équivalents à Bordeaux mais avec des coûts d'exploitation inférieurs de 300-400€/mois, offrant ainsi un meilleur ROI global.
 
 **Q: Est-il préférable d'acheter sur AliExpress ou Alibaba ?**  
 R: Pour tester le concept (1-5 mini PCs), AliExpress est plus simple avec ses prix fixes et livraison facile. Pour le scaling sérieux (10+ unités), Alibaba offre 30-40% d'économies et permet l'achat de lots reconditionnés à prix imbattables.
@@ -364,12 +368,12 @@ Pour utiliser ces scripts, clonez simplement ce dépôt sur votre mini PC Window
 
 Ces données sont basées sur des tests réels et vérifiables :
 
-| Infrastructure | Revenus Bangkok | Revenus Bordeaux | ROI Bangkok | ROI Bordeaux |
-|---------------|-----------------|------------------|-------------|--------------|
-| 10 mini PCs | 600-750€ | 700-900€ | 1.2-1.5 mois | 1-1.5 mois |
-| 30 mini PCs | 1800-2250€ | 2100-2700€ | 1.5-2 mois | 1.5-2 mois |
-| 50 mini PCs | 3000-3750€ | 3500-4500€ | 1.8-2.2 mois | 2-2.5 mois |
-| 100 mini PCs | 6000-7500€ | 7000-9000€ | 2-2.5 mois | 2.5-3 mois |
+| Infrastructure | Revenus Bangkok (Starlink) | Revenus Bordeaux | ROI Bangkok | ROI Bordeaux |
+|---------------|----------------------------|------------------|-------------|--------------|
+| 10 mini PCs | 700-900€ | 700-900€ | 1.0-1.3 mois | 1.2-1.5 mois |
+| 30 mini PCs | 2100-2700€ | 2100-2700€ | 1.2-1.5 mois | 1.5-2.0 mois |
+| 50 mini PCs | 3500-4500€ | 3500-4500€ | 1.3-1.7 mois | 1.8-2.2 mois |
+| 100 mini PCs | 7000-9000€ | 7000-9000€ | 1.5-2.0 mois | 2.0-2.5 mois |
 
 ## 🤝 Contributions
 
